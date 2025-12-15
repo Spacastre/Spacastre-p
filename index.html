@@ -6,31 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="icon" href="icon.png"/>
     <title>Spacastre</title>
+    <link rel="icon" href="./asset/icon.png"/>
 </head>
 <body>
-    <header>
-        <div class="container1">
-            <div class="logo">
-                <div class="iconlogo">
-                    <img class="imglogo" src="icon.png"/> 
-                </div>
-                <h1 class="nama">
-                <a class="nama">SPACASTRE</a>
-                </h1>
-            </div>
-            <div class="media">
-                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram iconmedia"></i></a>
-                <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube iconmedia"></i></a>
-                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter iconmedia"></i></a>
-                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook iconmedia"></i></a>
-                <a href="https://discord.com" target="_blank"><i class="fa-brands fa-discord iconmedia"></i></a>
-                <a href="https://spotify.com" target="_blank"><i class="fa-brands fa-spotify iconmedia"></i></a>
-                <a href="mailto:email@example.com"><i class="fa-solid fa-envelope iconmedia"></i></a>
-                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin iconmedia"></i></a>
-            </div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <img class="nav-logo" src="./asset/logonname.gif"></img>
+    <ul>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#skills">TELEMETRY</a></li>
+        <li><a href="#cv">CV</a></li>
+    </ul>
+</nav>
+
+<!-- HERO / PROFILE -->
+<header id="profile">
+    <div class="hero">
+
+        <!-- PROFILE PHOTOS -->
+        <div class="profile-photos">
+            <img class="photo" src="./asset/fp.jpg">
+            <img class="photo" src="./asset/icon.png">
         </div>
-    </header>
+
+        <h1>Hanis Firgiansyah <span>as Spacastre</span></h1>
+
+        <p class="desc-id">
+            Mahasiswa S1 Kimia Universitas Jenderal Soedirman | Frontend Web Developer | Casual Esports Enthusiast
+        </p>
+
+        <!-- SOCIAL MEDIA -->
+        <div class="socials">
+            <a href="https://www.instagram.com/spcstr_firgi.4"><i class="fa-brands fa-instagram iconmedia"></i></a>
+            <a href="https://youtube.com/@spacastretm39"><i class="fa-brands fa-youtube iconmedia"></i></a>
+            <a href="https://x.com/spacastre"><i class="fa-brands fa-x-twitter iconmedia"></i></a>
+            <a href="https://www.facebook.com/share/16bL6LXjoj/"><i class="fa-brands fa-facebook iconmedia"></i></a>
+            <a href="https://discord.gg/uS8g8ScX"><i class="fa-brands fa-discord iconmedia"></i></a>
+            <a href="https://open.spotify.com/user/5g7x1mz7lcb3kk08tp0swp5u9"><i class="fa-brands fa-spotify iconmedia"></i></a>
+            <a href="mailto:spacastreteam@gmail.com"><i class="fa-solid fa-envelope iconmedia"></i></a>
+            <a href="https://www.linkedin.com/in/hanis-firgiansyah-583752320"><i class="fa-brands fa-linkedin iconmedia"></i></a>
+            <a href="https://github.com/Spacastre"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <!-- PIT LANE LIGHT -->
+        <div class="pitlane">
+            <span></span><span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+</header>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+    <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio-grid">
+        <a class="card">
+            <img class="port-tumb" src="./asset/porto/tmb-desain.png">
+            <h3>Graphic Design</h3>
+            <p>Coming soon.</p>
+        </a>
+        <a class="card" href="https://github.com/Spacastre/ITC_WEB">
+            <img class="port-tumb" src="./asset/porto/tmb-itc-web.png">
+            <h3>ITC Web 2025</h3>
+            <p>Official ITC MIPA Unsoed web project 2025.</p>
+        </a>        
+        <a class="card" href="https://github.com/Spacastre/Physics-Web">
+            <img class="port-tumb" src="./asset/porto/tmb-phy-web.png">
+            <h3>Physics Web</h3>
+            <p>Web development competition Soedirman Technophoria website project.</p>
+        </a>
+    </div>
+</section>
+
+<!-- SKILLS TELEMETRY -->
+<section id="skills">
+    <h2 class="section-title">Telemetry Skills</h2>
+    <div class="telemetry">
+        <div class="skill"><span>HTML</span><div class="bar"><div style="width:80%"></div></div></div>
+        <div class="skill"><span>CSS</span><div class="bar"><div style="width:85%"></div></div></div>
+        <div class="skill"><span>JavaScript</span><div class="bar"><div style="width:45%"></div></div></div>
+        <div class="skill"><span>Scientific Writing</span><div class="bar"><div style="width:60%"></div></div></div>
+    </div>
+</section>
+
+<!-- CV -->
+<section id="cv">
+    <h2 class="section-title">Curriculum Vitae</h2>
+    <div class="card cv">
+        <p>COMING SOON</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Hanis Firgiansyah | Spacastre</p>
+</footer>
+
 </body>
 </html>
+
