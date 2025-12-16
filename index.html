@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Spacastre</title>
     <link rel="icon" href="./asset/icon.png"/>
@@ -16,6 +19,7 @@
     <img class="nav-logo" src="./asset/logonname.gif"></img>
     <ul>
         <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#digital-archive">DIGITAL ARCHIVE</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#skills">TELEMETRY</a></li>
         <li><a href="#cv">CV</a></li>
@@ -24,7 +28,7 @@
 
 <!-- HERO / PROFILE -->
 <header id="profile">
-    <div class="hero">
+    <div class="hero" data-aos="fade-up">
 
         <!-- PROFILE PHOTOS -->
         <div class="profile-photos">
@@ -50,18 +54,100 @@
             <a href="https://www.linkedin.com/in/hanis-firgiansyah-583752320"><i class="fa-brands fa-linkedin iconmedia"></i></a>
             <a href="https://github.com/Spacastre"><i class="fa-brands fa-github"></i></a>
         </div>
-
-        <!-- PIT LANE LIGHT -->
-        <div class="pitlane">
-            <span></span><span></span><span></span><span></span><span></span>
-        </div>
     </div>
 </header>
 
+<!-- DIGITAL ARCHIVE -->
+<section id="digital-archive">
+    <h2 class="section-title" data-aos="fade-up">Digital Archive</h2>
+    <h3 class="sub-section-title" data-aos="fade-up">Spotify Playlist</h3>
+    <div class="d-archive-grid" data-aos="fade-up">
+        <a class="card" href="https://open.spotify.com/playlist/7n3Xn8nNAlsmNkljJQ9cfw?si=1d71f9e9516d4794">
+            <img class="arc-tumb" src="./asset/arc/001-Ultimate.webp">
+            <div class="arc-desk">
+                <h3>001 - Ultimate</h3>              
+            </div>
+        </a>
+        <a class="card" href="https://open.spotify.com/playlist/2yL591gWbJVQcRuqri78mb?si=00097c760ed04958">
+            <img class="arc-tumb" src="./asset/arc/SCT NOW.webp">
+            <div class="arc-desk">
+                <h3>SPACASTRE NOW</h3>                
+            </div>
+        </a>
+        <a class="card" href="#">
+            <img class="arc-tumb" src="./asset/icon.png">
+            <div class="arc-desk">
+                <h3>SCT0525 - Devil</h3>
+                <p>Coming Soon</p>                
+            </div>
+        </a>
+        <a class="card" href="https://open.spotify.com/playlist/4fdPpzlJyqrXJM8if0q3l9?si=1f1d233d49884362">
+            <img class="arc-tumb" src="./asset/arc/SCT0424.webp">
+            <div class="arc-desk">
+                <h3>SCT0424 - Azura</h3>                
+            </div>
+        </a>
+        <a class="card" href="https://open.spotify.com/playlist/0qyz53bvNAujzudDTwcvcV?si=a7889487518a4971">
+            <img class="arc-tumb" src="./asset/arc/SCT0323.webp">
+            <div class="arc-desk">
+                <h3>SCT0323 - Error</h3>               
+            </div>
+        </a>
+        <a class="card" href="https://open.spotify.com/playlist/4ytVlaxW5E12lMDmstyCAp?si=b76dfbffc5f34c59">
+            <img class="arc-tumb" src="./asset/arc/SCT0222.webp">
+            <div class="arc-desk">
+                <h3>SCT0222 - Space</h3>               
+            </div>
+        </a>
+        <a class="card" href="https://open.spotify.com/playlist/6iFASYekVMFp5oj3ShnufM?si=66cd87dce48d42ab">
+            <img class="arc-tumb" src="./asset/arc/SCT0121.webp">
+            <div class="arc-desk">
+                <h3>SCT0121 - Start</h3>               
+            </div>
+        </a>                                 
+    </div>
+    <h3 class="sub-section-title" data-aos="fade-up">Archive Document</h3>
+    <div class="d-archive-grid" data-aos="fade-up">
+        <a class="card" href="https://docs.google.com/document/d/1U444UOxxFpTEy_Ov-d8JJu8tsUijArf00ph5vutbOLE/edit?usp=sharing">
+            <div class="arc-tumb"><i class="fa-solid fa-lock"></i></div>
+            <div class="arc-desk">
+                <h3>DOCSPA5-3</h3>
+                <p>Private.</p>                
+            </div>
+        </a>
+        <a class="card" href="https://drive.google.com/drive/folders/1vTQD5vJ6KX7h-_liqtJQA3Lu2Ka_GXP0?usp=drive_link">
+            <div class="arc-tumb"><i class="fa-brands fa-google-drive"></i></div>
+            <div class="arc-desk">
+                <h3>Arsip Laprak</h3>
+                <p>Berisi Arsip Laporan Praktikum Kimia.</p>                
+            </div>
+        </a>
+        <a class="card" href="https://bit.ly/JADWAL_MATKUL_KELAS_D">
+            <div class="arc-tumb"><i class="fa-solid fa-calendar-days"></i></div>
+            <div class="arc-desk">
+                <h3>Jadwal Matkul</h3>
+                <p>Jadwal Mata Kuliah Kelas D.</p>                
+            </div>
+        </a>
+        <a class="card" href="https://docs.google.com/spreadsheets/d/12MkVnwsCI5yiJz-aIdvCfoT2EYKJ_SvObhTF3nDMbRY/edit?usp=sharing">
+            <div class="arc-tumb"><i class="fa-solid fa-file"></i></div>
+            <div class="arc-desk">
+                <h3>File Progres</h3>               
+            </div>
+        </a>
+        <a class="card" href="https://forms.gle/jfeJWiP65axb2Qar5">
+            <div class="arc-tumb"><i class="fa-solid fa-circle-exclamation"></i></i></div>
+            <div class="arc-desk">
+                <h3>Kritik & Saran</h3>               
+            </div>
+        </a>                               
+    </div>
+</section>
+
 <!-- PORTFOLIO -->
 <section id="portfolio">
-    <h2 class="section-title">Portfolio</h2>
-    <div class="portfolio-grid">
+    <h2 class="section-title" data-aos="fade-up">Portfolio</h2>
+    <div class="portfolio-grid" data-aos="fade-up">
         <a class="card">
             <img class="port-tumb" src="./asset/porto/tmb-desain.webp">
             <h3>Graphic Design</h3>
@@ -76,14 +162,14 @@
             <img class="port-tumb" src="./asset/porto/tmb-phy-web.webp">
             <h3>Physics Web</h3>
             <p>Web development competition Soedirman Technophoria website project.</p>
-        </a>
+        </a>                                    
     </div>
 </section>
 
 <!-- SKILLS TELEMETRY -->
 <section id="skills">
-    <h2 class="section-title">Telemetry Skills</h2>
-    <div class="telemetry">
+    <h2 class="section-title" data-aos="fade-up">Telemetry Skills</h2>
+    <div class="telemetry" data-aos="fade-up">
         <div class="skill"><span>HTML</span><div class="bar"><div style="width:80%"></div></div></div>
         <div class="skill"><span>CSS</span><div class="bar"><div style="width:85%"></div></div></div>
         <div class="skill"><span>JavaScript</span><div class="bar"><div style="width:45%"></div></div></div>
@@ -93,8 +179,8 @@
 
 <!-- CV -->
 <section id="cv">
-    <h2 class="section-title">Curriculum Vitae</h2>
-    <div class="card cv">
+    <h2 class="section-title" data-aos="fade-up">Curriculum Vitae</h2>
+    <div class="card cv" data-aos="fade-up">
         <p>COMING SOON</p>
     </div>
 </section>

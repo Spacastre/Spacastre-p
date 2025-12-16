@@ -119,7 +119,7 @@ header{
     width:120px;
     height:120px;
     border-radius:50%;
-    border:3px solid var(--red);
+    border:1px solid var(--red);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -166,33 +166,6 @@ header{
     background:linear-gradient(180deg,#111,#454545);
 }
 
-/* ================= PIT LANE ================= */
-.pitlane{
-    display:flex;
-    justify-content:center;
-    gap:0.6rem;
-    margin-top:2.5rem;
-}
-
-.pitlane span{
-    width:22px;
-    height:22px;
-    background:#222;
-    border-radius: 50%;
-    animation:pit 1.5s infinite;
-}
-
-.pitlane span:nth-child(1){animation-delay:0s}
-.pitlane span:nth-child(2){animation-delay:0.3s}
-.pitlane span:nth-child(3){animation-delay:0.6s}
-.pitlane span:nth-child(4){animation-delay:0.9s}
-.pitlane span:nth-child(5){animation-delay:1.2s}
-
-@keyframes pit{
-    0%,80%{background:#222}
-    100%{background:var(--red)}
-}
-
 /* ================= SECTION ================= */
 section{
     padding:5rem 10%;
@@ -205,6 +178,55 @@ section{
     border-left:6px solid var(--red);
     padding-left:1rem;
 }
+.sub-section-title{
+    font-family:'Orbitron', sans-serif;
+    font-size:1rem;
+    margin:-2rem 0 1rem 0;
+    border-left:6px solid var(--red);
+    padding-left:1rem;
+}
+
+/* ================= PORTFOLIO ================= */
+.d-archive-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:2rem;
+    margin: 0 0 3.5rem 0;
+}
+
+.d-archive-grid .card{
+    display: flex;
+    gap: 10px;
+    background:linear-gradient(180deg,#111,#080808);
+    padding:0.25rem;
+    border-bottom:2px solid var(--red);
+    border-radius: 7px;
+    transition:0.3s;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.d-archive-grid .card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(225,6,0,0.4);
+}
+
+.arc-desk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arc-tumb{
+    display: grid;
+    aspect-ratio: 1/1;
+    width: 25%;
+    height: fit-content;
+    border-radius: 5px;
+    font-size: 32px;          
+    color: var(--white);
+    place-items: center;
+}
 
 /* ================= PORTFOLIO ================= */
 .portfolio-grid{
@@ -213,7 +235,7 @@ section{
     gap:2rem;
 }
 
-.card{
+.portfolio-grid .card{
     background:linear-gradient(180deg,#111,#080808);
     padding:1rem;
     border-bottom:2px solid var(--red);
@@ -223,7 +245,7 @@ section{
     color: var(--white);
 }
 
-.card:hover{
+.portfolio-grid .card:hover{
     transform:translateY(-8px);
     box-shadow:0 20px 40px rgba(225,6,0,0.4);
 }
