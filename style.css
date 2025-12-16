@@ -287,11 +287,31 @@ footer{
 }
 
 /* ================= MOBILE ================= */
-@media(max-width:768px){
-    .navbar ul{display:none}
-    .photo{width:90px;height:90px}
-    h1{font-size: 1rem}
-    h2{font-size: 0.7rem;}
-    h3{font-size: 0.5rem;}
-    p{font-size: 0.5rem;}
+@media screen and (max-width:768px){
+    .navbar ul{
+        display:none
+    }
+    .photo{
+        width:90px;
+        height:90px
+    }
+    header{
+        padding: 5rem 10%;
+    }
+    h1{
+        font-size: 2rem !important;
+    }
+    h2{
+        font-size: 1.2rem !important;
+    }
+    h3{
+        font-size: 0.8rem !important;
+    }
+    p{
+        font-size: 0.8rem !important;
+    }
+    .arc-tumb{
+        width: 15%;
+        margin-right: 15px;
+    }
 }
