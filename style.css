@@ -292,11 +292,24 @@ footer{
         display:none
     }
     .photo{
-        width:90px;
-        height:90px
+        width:60px;
+        height:60px
+    }
+    .socials a{
+        font-size: 17px;
+        padding: 3px;
+        border-bottom:1px solid var(--red);
+        border-radius: 3px;
     }
     header{
-        padding: 5rem 10%;
+        padding: 5rem 10% 5% 10%;
+        min-height: fit-content;
+        align-items: start;
+        justify-content:center;
+        padding-top:90px;
+    }
+    section{
+        padding: 5% 10%;
     }
     h1{
         font-size: 1.4rem !important;
