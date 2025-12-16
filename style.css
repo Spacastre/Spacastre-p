@@ -299,7 +299,7 @@ footer{
         padding: 5rem 10%;
     }
     h1{
-        font-size: 2rem !important;
+        font-size: 1.4rem !important;
     }
     h2{
         font-size: 1.2rem !important;
@@ -310,8 +310,15 @@ footer{
     p{
         font-size: 0.8rem !important;
     }
+    .d-archive-grid{
+        gap: 0.75rem;
+    }
+    .portfolio-grid{
+        gap: 0.75rem;
+    }
     .arc-tumb{
         width: 15%;
         margin-right: 15px;
     }
+
 }
